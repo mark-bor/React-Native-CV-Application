@@ -18,10 +18,10 @@ import {
 
 const Tab = createBottomTabNavigator();
 const screenOptions = {
-  headerBackgroundContainerStyle: {paddingTop: 20, backgroundColor: '#8F949C'},
-  headerStyle: {backgroundColor: '#16181D', height: 72, shadowOffset: {height: 0}},
-  headerTintColor: '#61DAFB',
-  headerTitleStyle: {fontWeight: 600, fontSize: 20},
+    headerBackgroundContainerStyle: {paddingTop: 20, backgroundColor: '#8F949C'},
+    headerStyle: {backgroundColor: '#16181D', height: 72, shadowOffset: {height: 0}},
+    headerTintColor: '#61DAFB',
+    headerTitleStyle: {fontWeight: 600, fontSize: 20},
 };
 
 export default function App() {
@@ -79,11 +79,11 @@ export default function App() {
 
 const Stack = createNativeStackNavigator();
 const WorksScreensHeader = {
-  headerBackgroundContainerStyle: {backgroundColor: '#20232A'},
-  headerStyle: {backgroundColor: '#20232A'},
-  headerTintColor: '#F5F5F5',
-  headerBackTitle: '',
-  // headerRight: () => <Text style={{color: '#FFF'}}>O</Text>,
+    headerBackgroundContainerStyle: {backgroundColor: '#20232A'},
+    headerStyle: {backgroundColor: '#20232A'},
+    headerTintColor: '#F5F5F5',
+    headerBackTitle: '',
+    // headerRight: () => <Text style={{color: '#FFF'}}>O</Text>,
 }
 
 function WorksScreen({navigation}) {
